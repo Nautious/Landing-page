@@ -1,0 +1,95 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-links {
+    display: flex;
+    background-color: aqua;  
+}
+
+.link {
+    background-color: bisque;
+    padding: 31px
+}
+
+
+.section-1 {
+    background-color: beige;
+    display: flex;
+    column-gap: 50px;
+}
+
+.section-2 {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3 {
+    background-color: blueviolet;
+    DISPLAY: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-4 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-color: brown;
+    max-height: 30px;
+}
+
+.random-info-images img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.sign-up-image img {
+    display: flex;
+    max-width: 500px;
+}
+
+.title-subtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-subtext button {
+    display: inline-flex;
+    max-width: fit-content;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body > div, .header > div {
+    padding: 0px 100px 0px 100px;
+    flex: 1;
+}
+html, body, .main-body {
+    margin: 0;
+    height: 100%;
+}
+
+
+
